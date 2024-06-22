@@ -161,7 +161,7 @@ bot.on('text', async (ctx) => {
                 ctx.reply('Failed to download the video.');
             });
         } else if (url.includes('tiktok.com')) {
-            const processingMessage = await ctx.reply('🤗Honey, wait a bit my love. Processing the URL...');
+     
             const resolvedUrl = await getRedirectUrl(url);
             data = await getVideo(resolvedUrl, false);
 
