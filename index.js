@@ -6,7 +6,7 @@ const instagramDl = require('@sasmeee/igdl');
 const { Headers } = fetch;
 const express = require('express');
 const app = express();
-const port = 3000;
+const port = 7860;
 
 const botToken = process.env.BOT_TOKEN || '';
  // Replace with your Telegram bot token
