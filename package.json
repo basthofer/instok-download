@@ -1,0 +1,17 @@
+{
+  "name": "honey",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@sasmeee/igdl": "^1.0.0",
+    "axios": "^1.7.2",
+    "express": "^4.19.2",
+    "telegraf": "^4.16.3"
+  }
+}
