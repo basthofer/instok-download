@@ -124,7 +124,7 @@ const downloadMedia = async (item) => {
     }
 };
 
-bot.start((ctx) => ctx.reply('My love! send me a TikTok or Instagram video link baby 😘'));
+bot.start((ctx) => ctx.reply('My love! send me a TikTok or Instagram link baby 😘'));
 
 bot.on('text', async (ctx) => {
     const url = ctx.message.text;
